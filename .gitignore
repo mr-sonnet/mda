@@ -1,0 +1,23 @@
+# Private server configuration and dependencies
+.smtp-config.php
+.env
+.env.*
+!.env.example
+vendor/
+node_modules/
+
+# Local working files and generated deployment archives
+work/
+outputs/*.zip
+.agents/
+.codex/
+
+# Superseded screenshot artwork
+assets/home-slider/meals-served.png
+assets/home-slider/outreach-programs.png
+assets/home-slider/sustainability.png
+assets/home-slider/youth-training.png
+
+# Operating system files
+.DS_Store
+Thumbs.db
